@@ -80,7 +80,7 @@ export const Navbar = () => {
             </button>
 
             <a
-              href="https://ton-site-externe.com"
+              href="https://usct-ecommerce-platform.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-2 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-full text-sm font-semibold transition-transform active:scale-95"
