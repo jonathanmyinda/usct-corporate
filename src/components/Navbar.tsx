@@ -144,10 +144,16 @@ export const Navbar = () => {
                   ))}
                 </div>
               </div>
-              <button className="w-full flex items-center justify-center space-x-2 bg-blue-600 text-white px-4 py-3 rounded-xl text-base font-semibold">
+              <a
+                href="https://usct-ecommerce-platform.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => setIsOpen(false)}
+                className="w-full flex items-center justify-center space-x-2 bg-blue-600 text-white px-4 py-3 rounded-xl text-base font-semibold active:scale-95"
+              >
                 <ShoppingBag size={20} />
                 <span>{t.nav.boutique}</span>
-              </button>
+              </a>
             </div>
           </motion.div>
         )}
